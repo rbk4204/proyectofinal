@@ -1,0 +1,173 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+
+ }
+
+
+body {
+	background:#f2f2f2;
+	color:#333;
+	font-family:Arial, helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color:#F24C27;
+}
+
+.wrapp {
+	max-width: 1000px;
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+header {
+	width: 100%;
+	height: 83px;
+	padding:20px 0;
+	background: rgb(231, 169, 169);
+	overflow: hidden;
+}
+
+.logo {
+	width: 43px;
+	float: left;
+}
+
+.logo img {
+	width:100%;
+	vertical-align: top;
+}
+
+nav {
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin:0px 5px;
+}
+
+nav ul li a {
+	display: block;
+	background: #f2f2f2;
+	color: #79d4df;
+	padding:10px 20px;
+	text-decoration: none;
+	border-radius:3px;
+	transition:all 300ms ease;
+}
+
+nav ul li a:hover {
+	color: #fff;
+	background: #be8dda;
+}
+
+.mensaje {
+	background:#be8dda;
+	padding:20px;
+	color:#fff;
+	margin:20px 0;
+	border-radius:5px;
+}
+
+.articulo {
+	float: left;
+	width: 70%;
+	padding:0px 20px 20px 0px;
+}
+
+aside {
+	float: left;
+	width: 30%;
+	background:#77aacc;
+	color:#fff;
+	padding:20px;
+	border-radius:5px;
+}
+
+.widget ul {
+	margin-left:20px;
+}
+
+.widget ul li {
+	margin:10px 0;
+	width: 100%;
+}
+
+.widget ul li a {
+	color:#fff;
+}
+
+.widget ul li a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	width: 100%;
+	background:#333;
+	padding:20px 0;
+	color:#fff;
+}
+
+footer p {
+	text-align:center;
+}
+/* formulario*/
+.btn{
+	border-radius: 5px;
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-shadow: 0 10px 0 rgba (255,255,255,0, 3);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);/*sobra del cuadro registro*/
+}
+form{
+	background-color: rgb(216, 207, 207);/*color de fondo*/
+	border-radius: 20px;/*hace los bordes del cuadro*/
+	color: rgb(59, 52, 30);/*color de las letras*/
+	font-size: 0.8em;
+	padding: 80px;/*alto del cuadro*/
+	margin: 0 auto;
+	width: 450px;/*ancho de la caja*/
+}
+
+input, textarea{
+	border: 0;
+	outline: none;
+
+	width: 300px;/*tamaño de los cuadros donde va el texto*/
+}
+
+.field{
+	border: solid 1px rgb(172, 70, 70); 
+	padding: 10px;
+
+	
+}
+
+.field:focus{
+	border-color: #4218a3;
+}
+
+.center-content{
+	text-align: center;
+}
+
+.btn-green{
+	color: rgb(70, 90, 100);
+	background-color: "#3CC93F";
+}
+
+.btn-green:hover{
+	background-color: #e1a1ff;
+}
+
+.btn-green:active{
+	background-color: #ca68c5;
+}
